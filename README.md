@@ -18,7 +18,7 @@ server.listen(9000);
 ## Why?
 Using `oompa-token` allows you to utilize JWT to cache expensive authentication procedures.
 
-### `require('oompa-token')(secret:String, login:String, expiration:Optional<Integer>}`
+### `require('oompa-token')(secret:String, login:String, expiration:Optional<Integer>)`
 - **secret** is the application secret used to sign and verify the JWT tokens. Keep it safe.
 - **login** is the task type you use to authenticate users. This task should actually authenticate a user, and return the user object on a successful authentication.
 - **expiration** is the optional expiration, in *seconds*, of a created token, after which authentication will fail.
