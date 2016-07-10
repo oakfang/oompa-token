@@ -1,0 +1,34 @@
+{
+  "name": "oompa-token",
+  "version": "1.0.0",
+  "description": "An authentication middleware for Oompa",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc ava -v"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oakfang/oompa-token.git"
+  },
+  "keywords": [
+    "auth",
+    "authentication",
+    "jwt",
+    "token",
+    "middleware",
+    "microservice"
+  ],
+  "author": "Alon Niv",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oakfang/oompa-token/issues"
+  },
+  "homepage": "https://github.com/oakfang/oompa-token#readme",
+  "dependencies": {
+    "jsonwebtoken": "^7.0.1"
+  },
+  "devDependencies": {
+    "ava": "^0.15.2",
+    "nyc": "^7.0.0"
+  }
+}
